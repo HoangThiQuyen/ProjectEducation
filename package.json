@@ -1,0 +1,33 @@
+{
+  "name": "chuong1-gioithieu",
+  "version": "1.0.0",
+  "description": "gioi thieu",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "watch": "node-sass -w src/resources/scss/app.scss src/public/css/app.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/HoangThiQuyen/blog-demo-f8.git"
+  },
+  "author": "quyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HoangThiQuyen/blog-demo-f8/issues"
+  },
+  "homepage": "https://github.com/HoangThiQuyen/blog-demo-f8#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.0.6",
+    "mongoose-slug-generator": "^1.0.4"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  }
+}
